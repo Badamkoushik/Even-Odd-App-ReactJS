@@ -1,0 +1,59 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 35px;
+}
+.main-paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+}
+.btn {
+  border-width: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 30px;
+  width: 90px;
+}
+.sub-paragraph {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    height: 400px;
+    width: 400px;
+  }
+  .main-heading{
+    font-size: 45px;
+  }
+  .main-paragraph{
+    font-size: 23px;
+  }
+  .btn{
+    height: 40px;
+    width: 100px;
+  }
+  .sub-paragraph{
+    font-size: 17px;
+  }
+}
